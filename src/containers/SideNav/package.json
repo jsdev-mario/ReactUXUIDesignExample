@@ -1,0 +1,9 @@
+{
+  "name": "SidenavContent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SidenavContent.js",
+  "dependencies": {
+    "reactstrap": "next"
+  }
+}

@@ -1,0 +1,12 @@
+.stepbar-container{
+    width: 100%;
+    .steplabel-container{
+        width: 100%;
+        .col{
+            padding: 0;
+        }
+    }
+    .progress{
+        height: 10px;
+    }
+}

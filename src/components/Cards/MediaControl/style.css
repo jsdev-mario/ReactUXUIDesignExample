@@ -1,0 +1,45 @@
+.card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 365px;
+}
+
+.details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+content {
+    flex: 1 0 auto;
+}
+
+.cover {
+    width: 151px;
+    height: 151px;
+}
+
+.controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.playIcon {
+    height: 38px;
+    width: 38px;
+}

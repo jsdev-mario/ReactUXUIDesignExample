@@ -1,0 +1,138 @@
+.link-content{
+    a:hover{
+        color: map_get($blue, darken-4) !important;
+    }
+}
+
+.ReactTable {
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.ReactTable .rt-thead .rt-tr .rt-th,
+.ReactTable .rt-thead .rt-tr .rt-td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+}
+
+.ReactTable .rt-thead.-headerGroups .rt-tr .rt-th {
+    display: flex;
+    justify-content: center;
+}
+
+.ReactTable .rt-tbody .rt-tr-group .rt-td {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.ReactTable.-striped .rt-tbody .rt-tr-group .rt-tr.-odd {
+    background-color: #efefef;
+}
+
+.ReactTable .rt-table .rt-thead.-headerGroups {
+    background-color: #ffffff;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc,
+.ReactTable .rt-thead.-header,
+.ReactTable .-pagination {
+    box-shadow: none !important;
+}
+
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+    background: #efefef !important;
+}
+
+.ReactTable .rt-th > div, .ReactTable .rt-td > div {
+    background: none !important;
+}
+
+.ReactTable .rt-thead.-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.DayPickerInput{
+    width: 100% !important;
+    input {
+        width: 100% !important;
+        border: 1px solid #e5e5e5
+    }
+    
+}
+
+//ifrmae
+
+iframe{
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+// expand Panel (according)
+
+.rc-collapse {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.rc-collapse > .rc-collapse-item > .rc-collapse-header {
+    height: 50px !important;
+    line-height: 50px !important;
+}
+
+.rc-collapse-content {
+    border-top: 1px solid #d9d9d9;
+}
+
+/*.rc-collapse-content,*/
+/*.rc-collapse > .rc-collapse-item-disabled > .rc-collapse-header {*/
+/*border-left: 1px solid #d9d9d9;*/
+/*border-right: 1px solid #d9d9d9;*/
+/*}*/
+
+.searchfield_container{
+    flex: 1;
+    border-radius: 22.5px;
+    border: 1px solid #e5e5e5;
+}
+
+.searchfield_wrapper{
+    display: flex;
+}
+
+.point{
+    cursor: pointer;
+}
+
+.menuitem:hover{
+    background: #ebebeb;
+}
+.contextmenu{
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    background: white;
+    border-radius: 5px;
+    z-index: 10000;
+}
+.calendar_day .card:hover{
+    background: #f5f5f5;
+}
+
+.rc-time-picker-input{
+    height: 44px !important;
+}
+
+@media (min-width: 991px) {
+    #processo_modal.modal-dialog, #outros_modal.modal-dialog {
+        max-width: 950px !important;
+    }
+}
+

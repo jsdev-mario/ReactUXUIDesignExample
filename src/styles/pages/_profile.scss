@@ -1,0 +1,34 @@
+.profile-container{
+    .profile-sidebar{
+        
+    }
+}
+
+.personinfo-container{
+    .email{
+        position: relative;
+        .editable_text{
+            position: absolute;
+            top: 10px;
+            font-size: 20px;
+            right: 10px;
+        }
+    }
+}
+
+.security-container{
+    a:hover{
+        color: map_get($blue, darken-4) !important;
+    }
+
+    .verify_password{
+        position: relative;
+        .show_hidden{
+            font-size: 20px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: map-get($primary, base);
+        }
+    }
+}

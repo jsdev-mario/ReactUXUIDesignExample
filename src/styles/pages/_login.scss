@@ -1,0 +1,25 @@
+/*Login Styles*/
+
+/*Login Styles*/
+
+.login-container {
+    border-radius: 5px;
+    .introduction-container{
+        margin-top: 100px;
+        img{
+            width: 180px;
+        }
+    }
+    .form-container{
+        border-left: 1px solid map_get($gray, lighten-3);
+        .policy{
+            background-color: map_get($orange, lighten-4);
+        }
+        .help-text{
+            border-bottom: 1px solid map_get($gray, lighten-3)
+        }
+        .help-text a:hover, .signup-text a:hover, .policy a:hover{
+            color: map_get($blue, darken-4) !important;
+        }
+    }
+}

@@ -1,0 +1,127 @@
+// step one
+.stepone-form-container{
+    .term-text {
+        a:hover{
+            color: map_get($blue, darken-4) !important;
+        }
+    }
+}
+h5{
+    line-height: 20px;
+}
+.stepone-introduction-container{
+    .introduction-content{
+        border-bottom: 1px solid map_get($gray, lighten-3);
+    }
+
+    .help-text-content{
+        .help-text{
+            background-color: map_get($gray, lighten-3);
+         }
+         h4{
+             position: relative;
+         }
+         h4::before{
+            border-color: map_get($gray, lighten-3) transparent transparent #fff;
+            border-style: solid;
+            border-width: 1em 0 0 1em;
+            content: '';
+            display: block;
+            height: .5em;
+            position: absolute;
+            top: -25px;
+            left: 25px;
+            width: .5em;
+         }
+    }
+}
+
+// step 2
+.steptwo-form-container{
+    .email-check-confirm{
+        background-color: map_get($gray, lighten-3);
+        padding: 12px;
+        h5{
+            line-height: 20px;
+        }
+    }
+    
+    .form-checkbox input, .form-checkbox > input + .check{
+        top: 25px !important;
+    }
+
+    a:hover{
+        color: map_get($blue, darken-4) !important;
+    }
+}
+
+.steptwo-introduction-container{
+    .introduction-content{
+        border-bottom: 1px solid map_get($gray, lighten-3);
+    }
+    .help-text-content{
+        .help-text{
+            background-color: map_get($gray, lighten-3);
+         }
+         h4{
+             position: relative;
+         }
+         h4::before{
+            border-color: map_get($gray, lighten-3) transparent transparent #fff;
+            border-style: solid;
+            border-width: 1em 0 0 1em;
+            content: '';
+            display: block;
+            height: .5em;
+            position: absolute;
+            top: -25px;
+            left: 25px;
+            width: .5em;
+         }
+    }
+}
+
+// step 3
+
+.stepthree-question-container{
+    .form-checkbox input, .form-checkbox > input + .check{
+        top: 3px;
+    }
+}
+
+.stepthree-fail-container{
+    .postmail-text{
+        a:hover{
+            color: map_get($blue, darken-4) !important;
+        }
+    }
+}
+
+.stepthree-introduction-container{
+    .introduction-content{
+        border-bottom: 1px solid map_get($gray, lighten-3);
+    }
+    .help-text-content{
+        .help-text{
+            background-color: map_get($gray, lighten-3);
+         }
+         h4{
+             position: relative;
+         }
+         h4::before{
+            border-color: map_get($gray, lighten-3) transparent transparent #fff;
+            border-style: solid;
+            border-width: 1em 0 0 1em;
+            content: '';
+            display: block;
+            height: .5em;
+            position: absolute;
+            top: -25px;
+            left: 25px;
+            width: .5em;
+         }
+    }
+}
+
+
+

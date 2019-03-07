@@ -1,0 +1,35 @@
+/*Footer Styles*/
+
+.app-footer {
+  
+  background-color: map_get($gray, lighten-4);
+
+  h4{
+    line-height: 30px;
+  }
+
+  h1{
+    margin-bottom: 30px;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: #5c5c5c;
+  }
+  a:hover{
+    color: map_get($blue, base);
+  }
+
+  @media screen and (max-width: 575px) {
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 12px;
+  }
+}
