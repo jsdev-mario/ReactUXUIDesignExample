@@ -1,14 +1,13 @@
 # ReactUXUIDesignExample
-Dahsboard UI Design sample to manage social media accounts.
+Dahsboard UI Design sample to manage social media accounts.<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stack: React/Redux/Saga<br>
 
 Below you will find some information on how to perform common tasks.<br>
 
 ![alt text](https://raw.githubusercontent.com/bk313131/ReactUXUIDesignExample/master/screenshots/1.png)
 ![alt text](https://raw.githubusercontent.com/bk313131/ReactUXUIDesignExample/master/screenshots/2.png)
 ![alt text](https://raw.githubusercontent.com/bk313131/ReactUXUIDesignExample/master/screenshots/3.png)
-![alt text](https://raw.githubusercontent.com/bk313131/ReactUXUIDesignExample/master/screenshots/4.png)
 
 ## Available Scripts
 
